@@ -29,6 +29,8 @@ ul{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
+  
 }
 
 .card{
@@ -122,4 +124,6 @@ footer{
   border-top: 5px solid black;
   display: flex;
   justify-content: center;
+  justify-content: center;
+  padding: 20px;
 }
