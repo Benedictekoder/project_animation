@@ -5,9 +5,17 @@ body{
   /*property: value; is a CSS Rule*/
   margin: 0;
   font-family: "unbounded",sans-serif;
-  height: 100vh;
+  
 }
 
+.main{
+  height: 100vh;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 header{
   border-bottom: 5px solid black;
@@ -23,12 +31,12 @@ header{
   padding: 0 10px;
 }
 
-.navbuttonColor{
+.navbutton{
 transition-duration: 1s;
 transition-timing-function: ease-in;
 }
 
-.navbuttonColor :hover{
+.navbutton :hover{
   background-color: blueviolet;
 }
 
@@ -43,7 +51,7 @@ transition-timing-function: ease-in;
   animation-timing-function: ease-in;
 }
 
-@keyframes fullRotation{
+@keyframes fullRotate{
   0%{
     transform: rotate(0);
   }
@@ -57,6 +65,26 @@ transition-timing-function: ease-in;
     scale: 1;
   }
 }
+
+.Snurr{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.buttonSize{
+  display:flex ;
+  gap: 20px;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+
+.buttonSize:hover{
+  scale: 1.5;
+}
+
+
 
 footer{
   border-top: 5px solid black;
